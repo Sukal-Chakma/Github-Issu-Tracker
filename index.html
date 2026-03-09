@@ -28,11 +28,48 @@
 
 </head>
 <body>
-    <h1 class="bg-red-500">welcome </h1>
 
+  <!-- Log in section  -->
+<section class="login-page">
+    <div class="flex items-center justify-center min-h-screen bg-base-200">
+  <div class="card w-96 bg-base-100 shadow-xl">
+    <div class="card-body">
+      <!-- Logo Section -->
+      <div class="flex justify-center mb-4">
+        <img src="assets/github-logo.png" alt="Logo" class="w-16 h-16" />
+      </div>
+
+      <h2 class="card-title justify-center">GitHub Issues Tracker</h2>
+      <p class="text-center">Sign in to manage your issues</p>
+
+      <!-- Username -->
+      <div class="form-control mt-4">
+        <label class="label font-bold">User Name</label>
+        <input id="input-username" type="text" placeholder="Enter Username" class="input input-bordered" value="admin" />
+      </div>
+
+      <!-- Password -->
+      <div class="form-control mt-4">
+        <label class="label font-bold">Password</label>
+        <input id="input-password" type="password" placeholder="Enter Password" class="input input-bordered" value="admin123" />
+      </div>
+        <button id="btn-sign-in" class="btn btn-primary rounded-2xl mt-4 ">Sign In</button>
+      
+      <div class="divider">OR</div>
+
+      <!-- Demo Credentials -->
+      <div class="text-center">
+        <p class="font-bold">Demo Credentials:</p>
+        <p>Username: admin</p>
+        <p>Password: admin123</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
 
     <!-- connect js file -->
-     <script src="js/script.js"></script>
+     <script src="js/sign-in.js"></script>
 </body>
 </html>
